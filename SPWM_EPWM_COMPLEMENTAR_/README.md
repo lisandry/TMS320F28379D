@@ -49,7 +49,7 @@ O resultado ($CMPA$) é carregado no registrador de comparação do EPWM, determ
 
 ## 🚀 Como Utilizar no Loop Principal
 
-As variáveis de controle são globais e voláteis. Você pode alterá-las em qualquer parte do seu código (como no `main()` ou via comunicação serial/ADC) para alterar o comportamento do motor instantaneamente:
+As variáveis de controle são globais e voláteis. Você pode alterá-las em qualquer parte do seu código (como no `main()` ou via comunicação serial/ADC):
 
 ```c
 // Modificando a frequência da onda gerada para 50 Hz
