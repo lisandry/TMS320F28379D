@@ -1,0 +1,5 @@
+/CPU1_RAM/
+Debug/
+Release/
+*.out
+*.obj
