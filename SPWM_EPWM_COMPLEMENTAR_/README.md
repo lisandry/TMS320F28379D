@@ -1,8 +1,8 @@
-# ⚡ Gerador SPWM Trifásico Dinâmico com Tempo Morto (C2000)
+# ⚡ Gerador SPWM Trifásico Dinâmico
 
 Este repositório contém a implementação de um gerador de Modulação por Largura de Pulso Senoidal (SPWM) trifásico para a família de microcontroladores Texas Instruments C2000 (testado na série F2837xD). 
 
-Diferente das implementações tradicionais baseadas em tabelas de busca (*Lookup Tables* - LUT), este código utiliza um **Acumulador de Fase** e a biblioteca matemática nativa para calcular os ângulos em tempo real. Isso permite o controle dinâmico da frequência e amplitude da onda, tornando-o ideal para aplicações de controle de motores CA (como inversores V/f).
+Diferente das implementações tradicionais baseadas em tabelas de busca (*Lookup Tables* - LUT), este código utiliza um **Acumulador de Fase** e a biblioteca matemática nativa para calcular os ângulos em tempo real. Isso permite o controle dinâmico da frequência e amplitude da onda.
 
 ## ✨ Funcionalidades
 
